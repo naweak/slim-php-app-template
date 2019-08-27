@@ -1,0 +1,13 @@
+{
+    "require": {
+        "symfony/dotenv": "^4.3",
+        "slim/slim": "^3.12",
+        "gabordemooij/redbean": "^5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Controllers\\": "src/Controllers",
+            "Models\\": "src/Models"
+        }
+    }
+}
